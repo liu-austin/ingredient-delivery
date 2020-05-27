@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.main-container {
+  display: 'inline-block';
+}
+
+/* .add-to-cart:hover {
+  color: white;
+  background-color: blue;
+} */
+
+
+td {
+  font-size: 0.75em;
+  padding: 10px;
+  border: 1px solid gray;
+  transition: background-color 1s;
+  font-family: 'IBM Plex Mono', monospace;
+  width: 25%;
+}
+
+.vendorListLabel {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75em;
+}
+
+td:hover {
+  background-color: rgba(200, 200, 200, 0.25);
+}
+
+button {
+  cursor: pointer;
+  width: 1.75vw;
+  height: 1.75vw;
+  font-size: 2em;
+  transition: color 2s;
+  transition: background-color 2s;
+  color: lightgray
+}
+.add {
+  margin-left: 0vw;
+}
+.add:focus {
+  color: gray;
+}
+
+.subtract {
+  margin-right: 10px;
+}
+
+.subtract:focus {
+  color: gray;
+}
+
+button:focus {
+  background-color: lightgray;
+  outline:0;
+}
+
+.main-table {
+  text-align: center;
+  margin-top: 50px;
 }
