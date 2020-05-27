@@ -57,10 +57,20 @@ table {
 td {
   font-size: 0.75em;
   padding: 10px;
-  border: 1px solid gray;
+  border: 1px solid black;
   transition: background-color 1s;
   font-family: 'IBM Plex Mono', monospace;
   width: 25%;
+}
+
+.add-to-cart {
+  color: 'black';
+  background-color: '#12947f';
+}
+
+.add-to-cart:hover {
+  color: 'white';
+  background-color: lightseagreen;
 }
 
 .vendorListLabel {

@@ -280,7 +280,7 @@ const IngredientsTable = props => {
           <td style={{border: '1px solid transparent'}}></td>
           <td style={{border: '1px solid transparent'}}></td>
           <td style={{border: '1px solid transparent', borderRight: '1px solid gray'}}></td>
-          <td onClick={() => props.setButtonText(props.selectButtonText + 1)} style={{cursor: 'pointer', color: 'white', backgroundColor: '#12947f'}}>{buttonText[Number(props.selectButtonText)]}</td>
+          <td onClick={() => props.setButtonText(props.selectButtonText + 1)} style={{cursor: 'pointer', color: 'white', backgroundColor: 'lightseagreen'}}>{buttonText[Number(props.selectButtonText)]}</td>
       </tbody>
       </table>
     </div>
